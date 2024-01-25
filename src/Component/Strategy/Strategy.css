@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* =========================================================================
+                                  Strategy css start
+============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.strategy {
+  background: url(/src/assets/Wave2.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.strategy__wraper {
+  padding-top: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.strategy__left {
+  text-align: center;
+}
+
+.strategy__title {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 52px;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+
+.strategy__details {
+  color: #32046b;
+  font-family: var(--HankenGrotesk);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 42.5px;
+  letter-spacing: 0.2px;
+  width: 611px;
+  padding-bottom: 80px;
+}
+.strategy__btn {
+  padding: 20px 26px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 25px;
+  background: #7c14fd;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.strategy__btn:hover {
+  transform: translateX(5%);
+  background: #7300ff;
+  box-shadow: 0px 26px 46px 0px #7c14fd59;
+  -webkit-transform: translateX(5%);
+  -moz-transform: translateX(5%);
+  -ms-transform: translateX(5%);
+  -o-transform: translateX(5%);
+}
+
+.strategy__btn:hover .strategy__right_arrow {
+  transform: translateX(10%);
+  -webkit-transform: translateX(10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.strategy__right_arrow {
+  vertical-align: middle;
+  padding-left: 20px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.strategy__bg {
+  width: 532px;
+}
+
+/* =========================================================================
+                                  Strategy css End
+============================================================================*/

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ============================================================================
+                                  Card css start
+===============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.card__title {
+  padding-top: 38px;
+  padding-bottom: 15px;
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 28px;
+
+  font-weight: 700;
+}
+
+.card__detail {
+  color: #000;
+  text-align: justify;
+  font-family: var(--HankenGrotesk);
+  font-size: 14px;
+  opacity: 0.4;
+  font-weight: 600;
+  line-height: 162.7%;
+  padding-bottom: 45px;
+}

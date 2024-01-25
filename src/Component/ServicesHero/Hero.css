@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ============================================================================
+                                  Hero css start
+===============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.hero {
+  overflow: hidden;
+  height: 936px;
+}
+.hero__wraper {
+  padding-top: 95px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__title {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 76px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  letter-spacing: -1.14px;
+}
+
+.hero__description {
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-bottom: 65px;
+  width: 558px;
+}
+
+.hero__btn {
+  position: absolute;
+  z-index: 1;
+  padding: 20px 48px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  background: #7c14fd;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.hero__btn:hover {
+  transform: translateY(-10%);
+  box-shadow: 0px 26px 46px 0px #7c14fd59;
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+.hero__img {
+  position: relative;
+  z-index: 1;
+  width: 677px;
+
+  left: -78px;
+}
+.hero__wave__img {
+  top: 20%;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+
+/* ============================================================================
+                                  Hero css End
+===============================================================================*/

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ============================================================================
+                                  Hire css start
+===============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.hire {
+  background: url(/src/assets/FreeMeeting.png);
+  padding: 126px 0;
+}
+
+.hire__wraper {
+  text-align: center;
+}
+
+.hire__heading {
+  color: #fff;
+  padding-bottom: 40px;
+  font-family: var(--ProductSans);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 128.3%;
+}
+
+.hire__detail1 {
+  padding: 0 58px;
+  color: #fff;
+  padding-bottom: 20px;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+
+.hire__detail2 {
+  padding: 0 63px;
+  color: #fff;
+  padding-bottom: 20px;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+
+.hire__detail3 {
+  padding: 0 83px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+/* ============================================================================
+                                  Hire css End
+===============================================================================*/

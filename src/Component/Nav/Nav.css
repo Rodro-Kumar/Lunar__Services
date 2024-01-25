@@ -1,0 +1,93 @@
+@import url(/src/CommonCss/Common.css);
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ============================================================================
+                                  Nav css start
+===============================================================================*/
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.nav__wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  background: #fff;
+  box-shadow: 0px 12px 22px 0px #0000000d;
+  padding: 6px 0;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list__item {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list__item li a {
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 33px 26px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.nav__list__item li a:hover {
+  color: #7c14fd;
+  background-color: #dbd6d671;
+}
+
+.down__arrow {
+  vertical-align: middle;
+}
+
+.contact__btn {
+  margin-left: 45px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 1000px;
+  border: 1px solid #7c14fd;
+  padding: 14px 27px;
+  color: var(--Primary, #7c14fd);
+  font-family: var(--HankenGrotesk);
+  font-size: 16px;
+  font-weight: 600;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.contact__btn:hover {
+  background-color: #7c14fd;
+  color: #fff;
+}
+
+/* ============================================================================
+                                  Nav css End
+===============================================================================*/

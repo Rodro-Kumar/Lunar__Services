@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* =========================================================================
+                              Form css start
+============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.form {
+  padding-top: 220px;
+  padding-bottom: 150px;
+}
+
+.form__wraper {
+  -moz-column-gap: 20px;
+  column-gap: 87px;
+  display: flex;
+  padding: 122px 180px;
+  border-radius: 20px;
+  border-top: 6px solid #b070ff;
+  background: #fff;
+  filter: drop-shadow(0px 69px 114px rgba(124, 20, 253, 0.08));
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  justify-content: center;
+}
+
+.form__heading {
+  color: var(--Black, #000);
+  font-family: var(--ProductSans);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 129.7%;
+  position: relative;
+  width: 383px;
+}
+
+.form__heading::after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  width: 89px;
+  height: 3px;
+  border-radius: 1000px;
+  background: linear-gradient(90deg, #7c14fd 1.09%, #7c14fd4a 99.99%);
+}
+
+.form__info {
+  padding-top: 45px;
+  color: var(--Black, #000);
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 157.2%;
+  opacity: 0.7;
+  width: 207px;
+}
+
+.form__icon {
+  padding: 38px 0;
+  column-gap: 20px;
+  display: flex;
+}
+
+.form__icon a {
+  cursor: pointer;
+  line-height: 51px;
+  text-align: center;
+  font-size: 22px;
+  color: #7c14fd;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.form__icon a:hover {
+  transform: translateY(-10%);
+  background-color: #dddddd;
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+.formBookbtn {
+  cursor: pointer;
+  background: transparent;
+  padding: 18px 34px;
+  border-radius: 15px;
+  border: 2px solid #7c14fd;
+  color: #7c14fd;
+  font-family: var(--HankenGrotesk);
+  font-size: 20px;
+  font-weight: 700;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+.formBookbtn:hover {
+  background-color: #7c14fd;
+  color: #fff;
+}
+
+input {
+  padding-right: 220px;
+  padding-left: 31px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 15px;
+  background: #faf6ff;
+}
+
+input:focus {
+  border: 2px solid #7c14fd;
+}
+
+input:nth-child(4) {
+  padding-bottom: 100px;
+}
+
+input::placeholder {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 16px;
+
+  font-weight: 400;
+  opacity: 0.3;
+}
+
+.contact__title {
+  padding-bottom: 20px;
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 129.7%;
+  letter-spacing: 0.55px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.form__send__btn {
+  cursor: pointer;
+  margin-top: 12px;
+
+  border-radius: 15px;
+  background: #7c14fd;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 195px;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+.form__send__btn:hover {
+  background: #4d02a8;
+}
+/* =========================================================================
+                              Form css End
+============================================================================*/
